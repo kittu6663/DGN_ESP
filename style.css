@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium' ;
+    background-image: -webkit-image-set("IMG/DRAGON.png");
+    background-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: fixed;
+}
+header{
+    text-align: right;
+}
+.imain{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.pmain{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.iform{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+.ibutton{
+    display: flex;
+    padding: 10px  ; 
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    color: rgb(10, 236, 244);
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(360deg,rgb(41, 27, 130),rgb(123, 194, 52)) ;
+    cursor: pointer;
+}
+.pform{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+}
+p{
+        color: rgb(255, 255, 255);
+}
+h1{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.inputs2{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline-color: purple ;
+    background-color: transparent;
+    color: aqua;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+.inputs{
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline-color: aqua;
+    background-color: transparent;
+    color: aqua;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+
+div{
+    align-items: right;
+}
+button{
+    display: flex;
+    padding: 10px  ; 
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+    background: linear-gradient(360deg,rgb(8, 97, 30),rgb(86, 30, 30)) ;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px) {
+    body {
+        background-image: url("IMG/MO-DGN.png");
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .pmain{
+        display:grid;
+        align-items: center;
+    }
+}

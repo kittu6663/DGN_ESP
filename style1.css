@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(270deg,rgb(73, 136, 208),rgb(153, 66, 225));
+    background-attachment: fixed;
+}
+
+div{
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Cochin';
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 45px;
+    font-family: 'Caliber';
+    font-style: italic;
+    color: rgb(94, 212, 43);
+    font-display: swap;
+    text-shadow: 2px 4px 5px;
+}
+
+p{
+    font-family: monospace;
+    font-size: 24px;
+}
+
+@media only screen and(max-width: 600px) {
+
+    .img{
+        width: 400px ;
+    }
+
+}
