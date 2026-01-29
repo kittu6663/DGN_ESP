@@ -41,7 +41,7 @@ nav
     color: rgb(10, 236, 244);
     align-items: center;
     gap: 10px;
-    background: linear-gradient(360deg,rgb(41, 27, 130),rgb(123, 194, 52)) ;
+    background: none;
     cursor: pointer;
 }
 .pform{
@@ -106,5 +106,6 @@ button{
         align-items: center;
     }
 }
+
 
 
