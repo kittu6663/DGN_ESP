@@ -13,7 +13,7 @@ body{
 }
 nav
 {
-    text-align: center;
+    text-align:center;
 }
 .imain{
     display: flexbox;
@@ -106,4 +106,5 @@ button{
         align-items: center;
     }
 }
+
 
