@@ -34,13 +34,13 @@ font-family: 'Cambria';
 <form action="https://api.web3forms.com/submit" method="post" class="pform" style=" text-align: center; color: rgb(172, 93, 211);  font-size: larger;">
 <input  type="hidden" name="apikey" value="0a1a2d1a-2cc2-4465-9c24-cbf4691fb023">
 <label title="click me" for="amt">AMOUNT(payed):</label>
-<input id="amt" type="tel" name="AMOUNT" placeholder="₹-rupees" class="inputs2" required>
+<input id="amt" type="number" name="AMOUNT" placeholder="₹-rupees" class="inputs2" required>
 <br>
 <label title="click me" for="UTR">ENTER UTR.NO:</label>
-<input id="UTR" type="phone" name="UTR" placeholder="Enter  UTR" minlength="12" maxlength="16"  class="inputs2" required>
+<input id="UTR" type="number" name="UTR" placeholder="Enter  UTR" minlength="12" maxlength="16"  class="inputs2" required>
 <br>
 <label title="click me" for="file">SCREENSHOT:</label>
-<input id="file" type="file" accept="image/png,image/jpeg" name="SNAPSHOT" placeholder="upload SCREENSHOT" class="inputs2" required>
+<input id="file" type="file" formtarget="apikey" accept="image/png,image/jpeg" name="SNAPSHOT" placeholder="upload SCREENSHOT" class="inputs2" required>
 <br>
 <label title="click me" for="CONTACT">YOUR PH.NO:</label>
 <input id="CONTACT" type="tel" name="tel" placeholder="" class="inputs2" required><br>
@@ -71,4 +71,5 @@ font-family: 'Cambria';
   (ignore if you done)`);
 </script>
 </html>
+
 
