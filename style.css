@@ -14,8 +14,12 @@ body{
 header{
     text-align: right;
 }
+nav
+{
+    text-align: center;
+}
 .imain{
-    display: flex;
+    display: flexbox;
     align-items:center;
     justify-content: space-evenly;
 }
@@ -87,7 +91,6 @@ button{
     border-radius: 100px;
     border: none;
     font-size: 16px;
-    align-items: center;
     gap: 10px;
     color: aliceblue;
     background: linear-gradient(360deg,rgb(8, 97, 30),rgb(86, 30, 30)) ;
