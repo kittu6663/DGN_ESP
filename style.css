@@ -11,9 +11,6 @@ body{
     margin-right: auto;
     background-attachment: fixed;
 }
-header{
-    text-align: right;
-}
 nav
 {
     text-align: center;
@@ -109,3 +106,4 @@ button{
         align-items: center;
     }
 }
+
